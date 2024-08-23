@@ -1,0 +1,3 @@
+// Copyright 2018 GoldenRiver Technology Co., Ltd. All rights reserved.
+menu "vtrust_core"
+endmenu
