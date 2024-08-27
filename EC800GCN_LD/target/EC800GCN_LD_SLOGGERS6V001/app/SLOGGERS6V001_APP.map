@@ -1,0 +1,2836 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (memcpy)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (memset)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (sprintf)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (strcat)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (strcmp)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (strcpy)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strlen.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (strlen)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o) (__global_locale)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (memchr)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o) (_Balloc)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (frexp)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (strncpy)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o) (__ascii_wctomb)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o) (_ctype_)
+../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o) (memmove)
+../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (__aeabi_idivmod)
+../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_dvmd_tls.o)
+                              ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+                              ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj (cJSON_Delete)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+                              ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o) (sscanf)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o) (__seofread)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+                              ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o) (strncmp)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+                              ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o) (strtod)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o) (__ssvfscanf_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (__gethex)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (__match)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (iswspace)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (_C_numeric_locale)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_mbrtowc_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (__sccl)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (nanf)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (nan)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_strtoll_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_strtol_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_strtoull_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_strtoul_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o) (_sungetc_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o) (__submore)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o) (_fflush_r)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o) (__sinit)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o) (_fwalk)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o) (_global_impure_ptr)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o) (iswspace_l)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
+..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o) (_fclose_r)
+..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (__aeabi_l2d)
+..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o) (__aeabi_d2lz)
+..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)
+                              ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o) (__aeabi_d2ulz)
+../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+                              ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o) (close)
+
+Allocating common symbols
+Common symbol       size              file
+
+mqtt_cli            0x4               components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___atexit_recursive_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+topic_cau_hinh      0x64              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___env_recursive_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+topic_gui           0x64              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___malloc_recursive_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+topic_sensor        0x64              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+message_sendMQTT    0x3e8             components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___at_quick_exit_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+len_message_sendMQTT
+                    0x4               components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+m                   0x3e8             components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___dd_hash_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+len                 0x4               components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+topic_nhan          0x64              components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+__lock___sfp_recursive_mutex
+                    0x1               ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 lib/core_stub.o
+ .data          0x00000000        0x0 lib/core_stub.o
+ .bss           0x00000000        0x0 lib/core_stub.o
+ .text.core_stub.ip4addr_aton
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ip4addr_ntoa
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ip4addr_ntoa_r
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ip6addr_aton
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ip6addr_ntoa
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ip6addr_ntoa_r
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_accept
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_bind
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_connect
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_fcntl
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_freeaddrinfo
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getAckedSize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getDefaultNetif
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getRecvAvailSize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getRecvBufSize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getSentSize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_get_error
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getaddrinfo
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_gethostbyname
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getpeername
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getsockname
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_getsockopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_htonl
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_htons
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_inet_pton
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_ioctl
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_listen
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_recv
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_recvfrom
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_recvmsg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_select
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_send
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_sendmsg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_sendto
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_setsockopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_shutdown
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_socket
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.lwip_writev
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_cbc
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_cfb128
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_cfb8
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_ctr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_ecb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_ofb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_crypt_xts
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_decrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_encrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_setkey_dec
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_setkey_enc
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_xts_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_xts_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_xts_setkey_dec
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_aes_xts_setkey_enc
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_base64_decode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_base64_encode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_debug_set_threshold
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_internal_aes_decrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_internal_aes_encrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_accept
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_bind
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_connect
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_poll
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_recv
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_recv_timeout
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_send
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_set_block
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_set_nonblock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_net_usleep
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_pk_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_pk_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_pk_parse_key
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_check_privkey
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_check_pub_priv
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_check_pubkey
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_complete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_copy
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_export
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_export_crt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_export_raw
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_gen_key
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_get_len
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_import
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_import_raw
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_pkcs1_decrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_pkcs1_encrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_pkcs1_sign
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_pkcs1_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_private
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_public
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsaes_oaep_decrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsaes_oaep_encrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsaes_pkcs1_v15_decrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsaes_pkcs1_v15_encrypt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsassa_pkcs1_v15_sign
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsassa_pkcs1_v15_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsassa_pss_sign
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsassa_pss_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_rsassa_pss_verify_ext
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_rsa_set_padding
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_close_notify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_authmode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_ca_chain
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_ciphersuites
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_dbg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_handshake_timeout
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_max_frag_len
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_max_version
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_min_version
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_own_cert
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_psk
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_read_timeout
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_rng
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_session_cache
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_conf_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_config_defaults
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_config_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_config_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_get_verify_result
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_handshake
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_send_alert_message
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_session_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_session_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_session_reset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_set_bio
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_set_hostname
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_set_timer_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_setup
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_ssl_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_timing_get_delay
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_timing_set_delay
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_parse
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_parse_der
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_verify_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_verify_restartable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mbedtls_x509_crt_verify_with_profile
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.memalign
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.mlConvertStr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiEnterCritical
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiEpochSecond
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiEpochTime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiEventSend
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiEventWait
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiExitCritical
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiLocalSecond
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiLocalTime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiMemAllocSize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiMemRef
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiMemRefCount
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiMemSetCaller
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiSetEpochTime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiSetTimeZoneOffset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiSetUpTime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiThreadCallback
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiThreadCreate
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiThreadCurrent
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiThreadExit
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTimeZoneOffset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTimerCreate
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTimerStart
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTimerStartRelaxed
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTraceBasic
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTraceEx
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTraceIdBasic
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTraceIdEx
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiTraceVprintf
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiUpTime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.osiUpTimeUS
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamCaptureImage
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamClose
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamGetSensorInfo
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamI2CRead
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamI2CWrite
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamInit
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamInit0310SPI
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamPowerOff
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamPowerOn
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamPreview
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamPreviewDQBUF
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamPreviewQBUF
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamSetBufopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_CamStopPreview
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cInit
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cRead
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cRead_16bit_addr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cRelease
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cWrite
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_I2cWrite_16bit_addr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_adc_get_volt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_adc_get_volt_raw
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_aes_string_decryption
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_aes_string_encryption
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_assert
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_autosleep_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_autosleepex_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_camPrint
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_charge_get_config
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_charge_set_config
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_charge_set_over_temp
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_closedir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_cust_nvm_fread
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_cust_nvm_fwrite
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_default_pdn_cfg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_default_pdn_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_dns_addr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_nat
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_sim_profile_is_active
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_get_subnet
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_set_default_pdn_cfg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_set_dns_addr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_set_nat
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_set_subnet
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_datacall_unregister_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_delay_us
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_check_property
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_config_dump
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_enable_secure_boot
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_enable_secure_boot_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_feed_wdt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_cpu_uid
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_dump_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_firmware_subversion
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_firmware_version
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_mac_address
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_model
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_modem_fun
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_product_id
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_secure_boot_enable_state
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_sn
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_sys_srand
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_get_temp_value
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_memory_size_query
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_dev_set_modem_fun
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_event_try_wait
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_event_wait
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fac_cust_nvm_fread
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fclose
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ferror
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fgetc
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fgets
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_file_exist
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fopen
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_file_reset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_get_pack_name
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_get_result
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_image_verify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_image_verify_without_setflag
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fota_pack_name_convert_fs
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fprintf
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fputc
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fputs
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fread
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_frewind
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fs_convert_fota_pack_name
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fs_free_size
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fs_free_size_by_fd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fs_total_size
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fscanf
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fseek
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fsize
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fstat
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fsync
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftell
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_cwd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_get_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_lcwd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_list
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_lpwd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_mkdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_new
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_open
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_put_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_pwd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_release
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_rename
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_rmdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_setopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftp_client_size
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ftruncate
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_fwrite
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_authorization
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_battery_level
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_battery_vol
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_boot_cause
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_charge_cur
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_charge_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_powerup_reason
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_pwrkey_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_sim_and_profile
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_usb_detect_max_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_vbus_state
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_vchg_vol
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_get_wakeup_source
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gettimeofday
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_deinit
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_get_direction
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_get_level
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_get_pull
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_set_direction
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_set_level
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_gpio_set_pull
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_hmac_sha1
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_continue_dload
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_formadd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_getinfo
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_new
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_perform
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_release
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_httpc_setopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_i2c_read_slave_data
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_i2c_write_slave_data
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_int_disable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_int_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_int_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_int_unregister
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_keypad_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_keypad_state
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lbs_get_position
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_brightness_pin_sel
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_clear_screen
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_display_off
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_display_on
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_enter_sleep
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_get_config
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_get_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_init_bwscreen
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_init_ext
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_init_st7567a
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_reset_config
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_set_brightness
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_set_busmode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_set_config
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_set_display_offset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_set_level_brightness
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lcd_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_led_get_sim
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_led_set_sim
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ledcfg_callback_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lpm_wakelock_create
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lpm_wakelock_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lpm_wakelock_lock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_lpm_wakelock_unlock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_mkdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_mqtt_client_is_connected
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_mqtt_client_setopt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_mqtt_disconnect
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_mqtt_onenet_generate_auth_token
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ntp_sync
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nvm_fread
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nvm_fwrite
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_auto_black_elec_fence
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_cell_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_cell_info_async
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_cell_sinr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_cemode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_csq
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_data_count
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_drxtm
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_emm_gmm_cause
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_esm_sm_cause
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_esmfail_times
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_nitz_time_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_operator_name
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_reg_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_rrc_duration
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_selection
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_signal_strength
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_get_tau_type_aft_local_rel
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_reset_data_count
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_auto_black_elec_fence
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_cemode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_drxtm
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_esmfail_times
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_selection
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_nw_set_tau_type_aft_local_rel
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_open
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_opendir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pin_get_func
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pin_set_drving
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pin_set_func
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pin_set_gpio
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ping_start
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_power_down
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_power_reset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_psm_register_enter_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_psm_sleep_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwm_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwm_disable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwm_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwm_open
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwrkey_callback_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwrkey_longpress_cb_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwrkey_press_cb_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwrkey_release_cb_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_pwrkey_shutdown_time_set
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_readdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_remove
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rename
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rewinddir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rmdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rmdir_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_enable_alarm
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_get_alarm
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_get_cfg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_get_localtime
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_get_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_get_timezone
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_print_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_set_alarm
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_set_cfg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_set_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_set_timezone
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtc_to_sec_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_enter_critical
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_clear
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_create
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_get
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_set
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_sync
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_group_wait
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_send
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_event_send_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_exit_critical
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_feed_dog
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_get_cpu_using
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_get_system_tick
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_mutex_create
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_mutex_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_mutex_lock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_mutex_try_lock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_mutex_unlock
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_create
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_get_cnt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_get_free_cnt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_release
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_reset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_queue_wait
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_semaphore_create_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_semaphore_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_semaphore_get_cnt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_sw_dog_disable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_sw_dog_enable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_swdog_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_swdog_unregister
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_change_priority
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_create_default
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_get_current_ref
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_get_priority
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_get_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_get_userdata
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_resume
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_set_userdata
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_suspend
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_task_yield
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_create
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_delete
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_is_running
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_start
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_start_relaxed
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_start_us
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_timer_stop
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_rtos_up_time_ms
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sec_to_rtc_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_seekdir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_set_usb_detect_max_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sfs_setkey
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_change_pin
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_disable_pin
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_enable_pin
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_card_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_card_status_phy
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_ds_feature
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_iccid
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_imsi
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_operate_id
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_get_phonenumber
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_hotplug_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_set_ds_feature
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_set_hotplug
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_set_operate_id
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_unblock_pin
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sim_verify_pin
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sleep_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_callback_register
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_delete_msg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_delete_msg_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_center_address
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_code_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_ignore_cscs
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_init_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_storage
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_get_storage_info
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_read_msg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_read_msg_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_read_msg_list
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_send_msg
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_send_pdu
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_set_center_address
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_set_code_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_set_ignore_cscs
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_set_retry_count
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_sms_set_storage
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_clk_set
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_deinit
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_sffs_mkfs
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_sffs_mount
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi6_ext_nor_flash_sffs_unmount
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_cs_auto
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_cs_high
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_cs_low
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_get_tx_fifo_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_init_ext
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_lcd_write_cmd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_lcd_write_data
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_erase_block
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_init_ext
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_read_devid
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_read_devid_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_read_page_spare
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_read_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_reset
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_write_page_spare
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_write_spare
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nand_write_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_erase_64k_block
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_erase_chip
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_erase_sector
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_init_ext
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_read_status_high
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_read_status_low
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_write_16bit_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_nor_write_8bit_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_read_follow_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_release
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_release_sys_clk
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_request_sys_clk
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_set_irq
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_spi_write_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_close_notify
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_get
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_get_by_id
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_init
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_set
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_conf_set_by_id
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_free
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_get_bytes_avail
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_handshake
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_new
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_set_hostname
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_set_socket_fd
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_setup
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ssl_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_stat
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_telldir
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_get_dcbconfig
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_get_sleep_delay_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_get_tx_fifo_status
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_set_event_mask
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_uart_set_sleep_delay_time
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_ucs2_to_utf8
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_bind_hotplug_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_get_detmode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_get_enum_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_get_hotplug_state
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_set_detmode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_usb_set_enum_mode
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_utf8_to_gbk
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_open
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_read
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_read_aviable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_write
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_virt_at_write_aviable
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wakeup_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_async
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_close
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_do
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_open
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_option_set
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_option_set_ex
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.ql_wifiscan_register_cb
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_app_at_add
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atCmdResp
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atCmdRespInfoNText
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefInt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefInt64
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefInt64InList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefInt64InRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefIntInList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefIntInRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefStr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUint
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUint64
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUint64InList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUint64InRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUintByStrMap
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUintInList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamDefUintInRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamHexData
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamHexInt64InRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamHexRawText
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamInt
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamInt64
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamInt64InList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamInt64InRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamIntInList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamIntInRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamIsEmpty
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamOptStr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamRawText
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamStr
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamTrimTail
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUint
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUint64
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUint64InList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUint64InRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUintByStrMap
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUintInList
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atParamUintInRange
+                0x00000000        0x8 lib/core_stub.o
+ .text.core_stub.quec_atResp
+                0x00000000        0x8 lib/core_stub.o
+ .text          0x00000000        0x0 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .data          0x00000000        0x0 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .bss           0x00000000        0x0 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x38 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x00000000        0x4 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x00000000        0x8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x40 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x16 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x00000000       0x14 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x28 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r.str1.1
+                0x00000000       0x29 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .text._svfiprintf_r
+                0x00000000      0x89c ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .rodata.blanks.8590
+                0x00000000       0x10 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.8591
+                0x00000000       0x10 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x14 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x0 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .data          0x00000000        0x0 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .bss           0x00000000        0x0 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.parse_hex4
+                0x00000000       0x42 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.parse_string
+                0x00000000      0x1e8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.buffer_skip_whitespace
+                0x00000000       0x30 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.get_array_item
+                0x00000000       0x10 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.get_object_item
+                0x00000000       0x7c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.create_reference.constprop.0
+                0x00000000       0x38 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetErrorPtr
+                0x00000000       0x10 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .rodata.cJSON_Version.str1.1
+                0x00000000        0x9 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Version
+                0x00000000       0x24 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_InitHooks
+                0x00000000       0x4c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.parse_value
+                0x00000000      0x308 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_SetNumberHelper
+                0x00000000       0x48 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .rodata.cJSON_ParseWithLengthOpts.str1.1
+                0x00000000        0x4 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ParseWithLengthOpts
+                0x00000000       0xd8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ParseWithOpts
+                0x00000000       0x20 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Parse
+                0x00000000        0x8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ParseWithLength
+                0x00000000        0x8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_PrintUnformatted
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_PrintBuffered
+                0x00000000       0x5c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_PrintPreallocated
+                0x00000000       0x4c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetArraySize
+                0x00000000       0x10 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetArrayItem
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetObjectItem
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetObjectItemCaseSensitive
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_HasObjectItem
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddItemToArray
+                0x00000000        0x4 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddItemToObject
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddItemToObjectCS
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddItemReferenceToArray
+                0x00000000       0x1a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddItemReferenceToObject
+                0x00000000       0x24 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DetachItemViaPointer
+                0x00000000       0x3a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DetachItemFromArray
+                0x00000000       0x1c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DeleteItemFromArray
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DetachItemFromObject
+                0x00000000       0x14 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DetachItemFromObjectCaseSensitive
+                0x00000000       0x14 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DeleteItemFromObject
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_DeleteItemFromObjectCaseSensitive
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_InsertItemInArray
+                0x00000000       0x38 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ReplaceItemViaPointer
+                0x00000000       0x52 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ReplaceItemInArray
+                0x00000000       0x1c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateNull
+                0x00000000       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddNullToObject
+                0x00000000       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateTrue
+                0x00000000       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddTrueToObject
+                0x00000000       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateFalse
+                0x00000000       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddFalseToObject
+                0x00000000       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateBool
+                0x00000000       0x20 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddBoolToObject
+                0x00000000       0x2a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateString
+                0x00000000       0x30 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddStringToObject
+                0x00000000       0x2a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateStringReference
+                0x00000000       0x1c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateObjectReference
+                0x00000000       0x1c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateArrayReference
+                0x00000000       0x1c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateRaw
+                0x00000000       0x30 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddRawToObject
+                0x00000000       0x2a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateArray
+                0x00000000       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddArrayToObject
+                0x00000000       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_AddObjectToObject
+                0x00000000       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateIntArray
+                0x00000000       0x60 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateFloatArray
+                0x00000000       0x5a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateDoubleArray
+                0x00000000       0x56 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_CreateStringArray
+                0x00000000       0x58 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Duplicate
+                0x00000000       0x90 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Minify
+                0x00000000       0xa0 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsInvalid
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsFalse
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsTrue
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsBool
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsNull
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsNumber
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetNumberValue
+                0x00000000       0x20 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsString
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_GetStringValue
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsArray
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsObject
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_IsRaw
+                0x00000000        0xe ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Compare
+                0x00000000      0x15c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_malloc
+                0x00000000        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_SetValuestring
+                0x00000000       0x4e ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.replace_item_in_object
+                0x00000000       0x48 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ReplaceItemInObject
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_ReplaceItemInObjectCaseSensitive
+                0x00000000        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .bss.global_error
+                0x00000000        0x8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .bss.version.0
+                0x00000000        0xf ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .text._sscanf_r
+                0x00000000       0x54 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .text.__sread  0x00000000       0x26 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x32 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .text.__sseek  0x00000000       0x28 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .text.strtod_l
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .text.strtod   0x00000000       0x1c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .text.strtof_l
+                0x00000000       0x90 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .text.strtof   0x00000000       0x94 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .text.__numeric_load_locale
+                0x00000000        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .text.mbrtowc  0x00000000       0x1e ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .text.strtoll_l
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .text.strtoll  0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .text.strtol   0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .text.strtoull_l
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .text.strtoull
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .text.strtoul_l
+                0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .text.strtoul  0x00000000       0x1a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .text.__ssvfiscanf_r
+                0x00000000      0xf10 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .rodata.basefix.8182
+                0x00000000       0x22 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .text._ungetc_r
+                0x00000000      0x11e ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .text.ungetc   0x00000000       0x16 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x11c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x4a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x2c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.std      0x00000000       0x50 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x2c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sinit  0x00000000       0x50 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0x8c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x18 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x18 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x3c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x00000000       0x40 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x3d ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ COMMON         0x00000000        0x9 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lock.o)
+ .text          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .text._fclose_r
+                0x00000000       0xa8 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .text.fclose   0x00000000       0x12 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .comment       0x00000000       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x00000000       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+ .bss           0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+ .data          0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)
+ .bss           0x00000000        0x0 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)
+ .text          0x00000000        0x0 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .data          0x00000000        0x0 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .bss           0x00000000        0x0 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.close    0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.fstat    0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.gettimeofday
+                0x00000000        0xa ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.isatty   0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.lseek    0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.open.str1.1
+                0x00000000       0x1e ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.open     0x00000000       0x3c ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.read.str1.1
+                0x00000000       0x21 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.read     0x00000000       0x3c ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.rename   0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.stat     0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.unlink   0x00000000        0x4 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.write.str1.1
+                0x00000000       0x22 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .text.write    0x00000000       0x3c ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.__FUNCTION__.8400
+                0x00000000        0x5 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.__FUNCTION__.8407
+                0x00000000        0x5 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .rodata.__FUNCTION__.8425
+                0x00000000        0x6 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_info    0x00000000     0x1238 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_abbrev  0x00000000      0x2bf ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_loc     0x00000000      0x44a ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_aranges
+                0x00000000       0x70 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_ranges  0x00000000       0x60 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_line    0x00000000      0x3f8 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_str     0x00000000      0x985 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .comment       0x00000000       0x7a ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .debug_frame   0x00000000      0x118 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+ .ARM.attributes
+                0x00000000       0x37 ../../components/newlib/armca5/libql_newlib.a(ql_newlib.c.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x601ae100         0x00050f00         xr
+ram              0x807f0000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD lib/core_stub.o
+LOAD components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libc.a
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libm.a
+LOAD ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a
+LOAD lib/libql_app_nw.a
+LOAD lib/libql_app_peripheral.a
+LOAD lib/libql_app_osi.a
+LOAD lib/libql_app_dev.a
+LOAD lib/libql_app_sim.a
+LOAD lib/libql_app_power.a
+LOAD lib/libql_app_usb.a
+LOAD lib/libql_app_ftp.a
+LOAD lib/libql_app_http.a
+LOAD lib/libql_app_mqtt.a
+LOAD lib/libql_app_ssl.a
+LOAD lib/libql_app_ping.a
+LOAD lib/libql_app_ntp.a
+LOAD lib/libql_app_lbs.a
+LOAD lib/libql_app_socket.a
+LOAD lib/libql_app_wifi_scan.a
+LOAD lib/libql_app_lcd.a
+LOAD lib/libql_app_lvgl.a
+LOAD lib/libql_app_camera.a
+LOAD lib/libql_app_file.a
+LOAD lib/libql_app_sms.a
+LOAD lib/libql_app_spi.a
+LOAD lib/libql_app_spi_nor_flash.a
+LOAD lib/libql_app_spi6_ext_nor_flash.a
+LOAD lib/libql_app_spi_nand_flash.a
+LOAD lib/libql_app_decoder.a
+LOAD ../../components/newlib/armca5/libql_api_decoder.a
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libm.a
+LOAD lib/libql_app_img_at.a
+LOAD lib/libql_app_rtc.a
+LOAD lib/libql_ali_linkSDK.a
+LOAD lib/libql_qcloud_iot.a
+LOAD lib/libql_app_virt_at.a
+LOAD lib/libql_app_http_fota.a
+LOAD lib/libql_app_ftp_fota.a
+LOAD lib/libql_app_i2c.a
+LOAD lib/libql_app_mxml.a
+LOAD lib/libql_app_hilinksdk.a
+LOAD lib/libql_app_hilinksdk.a
+LOAD lib/ql_hilinksdk.a
+START GROUP
+LOAD ..\..\components\newlib\newlib-3.1.0\armca5\libc.a
+LOAD ..\..\components\newlib\newlib-3.1.0\armca5\libm.a
+LOAD ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a
+LOAD ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a
+LOAD ..\..\components\ql-application\HiLinkSDK\lib\WiFi\ota\debug\libhilinkota.a
+LOAD ..\..\components\ql-application\HiLinkSDK\lib\WiFi\softap\debug\libhilinkdevicesdk.a
+END GROUP
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libm.a
+LOAD lib/libql_app_peripheral.a
+LOAD lib/liblvgl.a
+LOAD lib/libql_app_hilinksdk.a
+LOAD ../../components/newlib/armca5/libql_newlib.a
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libc.a
+LOAD ../../components/newlib/newlib-3.1.0/armca5/libm.a
+LOAD ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a
+                0x00000000                PROVIDE (appimg_get_param = 0x0)
+                0x00000000                PROVIDE (appimg_set_param = 0x0)
+                0x601ae100                . = ORIGIN (flash)
+                0x601ae100                __flash_start = .
+
+.imageheader    0x601ae100       0x80
+                0x601ae100        0x4 LONG 0x41505032
+                0x601ae104        0x4 LONG 0x0
+                0x601ae108        0x4 LONG 0x0
+ *(.rodata.core_stub.header)
+ .rodata.core_stub.header
+                0x601ae10c       0x14 lib/core_stub.o
+                0x601ae10c                gAppImageCoreHeader
+                0x601ae120        0x4 LONG 0x2
+                0x601ae124        0x4 LONG 0x80 (__corestub_load_start - __flash_start)
+                0x601ae128        0x4 LONG 0x100 (__corestub_end - __corestub_start)
+                0x601ae12c        0x4 LONG 0x807f0000 __corestub_start
+                0x601ae130        0x4 LONG 0x4
+                0x601ae134        0x4 LONG 0x300 (__text_load_start - __flash_start)
+                0x601ae138        0x4 LONG 0x8018 (__text_end - __text_start)
+                0x601ae13c        0x4 LONG 0x601ae400 __text_start
+                0x601ae140        0x4 LONG 0x4
+                0x601ae144        0x4 LONG 0x8340 (__init_array_load_start - __flash_start)
+                0x601ae148        0x4 LONG 0x0 (__init_array_end - __init_array_start)
+                0x601ae14c        0x4 LONG 0x601b6440 __init_array_start
+                0x601ae150        0x4 LONG 0x1
+                0x601ae154        0x4 LONG 0x180 (__data_load_start - __flash_start)
+                0x601ae158        0x4 LONG 0x17a (__data_end - __data_start)
+                0x601ae15c        0x4 LONG 0x807f0100 __data_start
+                0x601ae160        0x4 LONG 0x3
+                0x601ae164        0x4 LONG 0x0
+                0x601ae168        0x4 LONG 0x980 (__bss_end - __bss_start)
+                0x601ae16c        0x4 LONG 0x807f0280 __bss_start
+                0x601ae170        0x4 LONG 0x0
+                0x601ae174        0x4 LONG 0x0
+                0x601ae178        0x4 LONG 0x0
+                0x601ae17c        0x4 LONG 0x0
+                0x00000001                ASSERT ((SIZEOF (.imageheader) == 0x80), invalid app image header)
+                0x807f0000                . = ORIGIN (ram)
+                0x807f0000                __ram_start = .
+
+.corestub       0x807f0000      0x100 load address 0x601ae180
+                0x807f0000                __corestub_start = .
+ *(.text.core_stub.*)
+ .text.core_stub.__getreent
+                0x807f0000        0x8 lib/core_stub.o
+                0x807f0000                __getreent
+ .text.core_stub.calloc
+                0x807f0008        0x8 lib/core_stub.o
+                0x807f0008                calloc
+ .text.core_stub.free
+                0x807f0010        0x8 lib/core_stub.o
+                0x807f0010                free
+ .text.core_stub.lwip_inet_ntop
+                0x807f0018        0x8 lib/core_stub.o
+                0x807f0018                lwip_inet_ntop
+ .text.core_stub.malloc
+                0x807f0020        0x8 lib/core_stub.o
+                0x807f0020                malloc
+ .text.core_stub.osiTracePrintf
+                0x807f0028        0x8 lib/core_stub.o
+                0x807f0028                osiTracePrintf
+ .text.core_stub.ql_bind_sim_and_profile
+                0x807f0030        0x8 lib/core_stub.o
+                0x807f0030                ql_bind_sim_and_profile
+ .text.core_stub.ql_dev_cfg_wdt
+                0x807f0038        0x8 lib/core_stub.o
+                0x807f0038                ql_dev_cfg_wdt
+ .text.core_stub.ql_dev_get_imei
+                0x807f0040        0x8 lib/core_stub.o
+                0x807f0040                ql_dev_get_imei
+ .text.core_stub.ql_get_data_call_info
+                0x807f0048        0x8 lib/core_stub.o
+                0x807f0048                ql_get_data_call_info
+ .text.core_stub.ql_log_set_port
+                0x807f0050        0x8 lib/core_stub.o
+                0x807f0050                ql_log_set_port
+ .text.core_stub.ql_mqtt_client_deinit
+                0x807f0058        0x8 lib/core_stub.o
+                0x807f0058                ql_mqtt_client_deinit
+ .text.core_stub.ql_mqtt_client_init
+                0x807f0060        0x8 lib/core_stub.o
+                0x807f0060                ql_mqtt_client_init
+ .text.core_stub.ql_mqtt_connect
+                0x807f0068        0x8 lib/core_stub.o
+                0x807f0068                ql_mqtt_connect
+ .text.core_stub.ql_mqtt_publish
+                0x807f0070        0x8 lib/core_stub.o
+                0x807f0070                ql_mqtt_publish
+ .text.core_stub.ql_mqtt_set_inpub_callback
+                0x807f0078        0x8 lib/core_stub.o
+                0x807f0078                ql_mqtt_set_inpub_callback
+ .text.core_stub.ql_mqtt_sub_unsub
+                0x807f0080        0x8 lib/core_stub.o
+                0x807f0080                ql_mqtt_sub_unsub
+ .text.core_stub.ql_network_register_wait
+                0x807f0088        0x8 lib/core_stub.o
+                0x807f0088                ql_network_register_wait
+ .text.core_stub.ql_quec_trace_enable
+                0x807f0090        0x8 lib/core_stub.o
+                0x807f0090                ql_quec_trace_enable
+ .text.core_stub.ql_rtos_semaphore_create
+                0x807f0098        0x8 lib/core_stub.o
+                0x807f0098                ql_rtos_semaphore_create
+ .text.core_stub.ql_rtos_semaphore_release
+                0x807f00a0        0x8 lib/core_stub.o
+                0x807f00a0                ql_rtos_semaphore_release
+ .text.core_stub.ql_rtos_semaphore_wait
+                0x807f00a8        0x8 lib/core_stub.o
+                0x807f00a8                ql_rtos_semaphore_wait
+ .text.core_stub.ql_rtos_task_create
+                0x807f00b0        0x8 lib/core_stub.o
+                0x807f00b0                ql_rtos_task_create
+ .text.core_stub.ql_rtos_task_sleep_ms
+                0x807f00b8        0x8 lib/core_stub.o
+                0x807f00b8                ql_rtos_task_sleep_ms
+ .text.core_stub.ql_rtos_task_sleep_s
+                0x807f00c0        0x8 lib/core_stub.o
+                0x807f00c0                ql_rtos_task_sleep_s
+ .text.core_stub.ql_set_data_call_asyn_mode
+                0x807f00c8        0x8 lib/core_stub.o
+                0x807f00c8                ql_set_data_call_asyn_mode
+ .text.core_stub.ql_start_data_call
+                0x807f00d0        0x8 lib/core_stub.o
+                0x807f00d0                ql_start_data_call
+ .text.core_stub.ql_stop_data_call
+                0x807f00d8        0x8 lib/core_stub.o
+                0x807f00d8                ql_stop_data_call
+ .text.core_stub.ql_uart_open
+                0x807f00e0        0x8 lib/core_stub.o
+                0x807f00e0                ql_uart_open
+ .text.core_stub.ql_uart_set_dcbconfig
+                0x807f00e8        0x8 lib/core_stub.o
+                0x807f00e8                ql_uart_set_dcbconfig
+ .text.core_stub.ql_uart_write
+                0x807f00f0        0x8 lib/core_stub.o
+                0x807f00f0                ql_uart_write
+ .text.core_stub.realloc
+                0x807f00f8        0x8 lib/core_stub.o
+                0x807f00f8                realloc
+                0x807f0100                __corestub_end = .
+                0x807f0100                . = ALIGN (0x20)
+                0x601ae180                __corestub_load_start = LOADADDR (.corestub)
+
+.data           0x807f0100      0x180 load address 0x601ae280
+                0x807f0100                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.__global_locale
+                0x807f0100      0x16c ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+                0x807f0100                __global_locale
+ .data.global_hooks
+                0x807f026c        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .data.numempty
+                0x807f0278        0x2 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+                0x807f027a                __data_end = .
+                0x807f0280                . = ALIGN (0x20)
+ *fill*         0x807f027a        0x6 
+                0x601ae280                __data_load_start = LOADADDR (.data)
+
+.igot.plt       0x601ae400        0x0
+ .igot.plt      0x601ae400        0x0 lib/core_stub.o
+
+.bss            0x807f0280      0x980
+                0x807f0280                __bss_start = .
+ *(.bss .bss.* COMMON .scommon .sbss .sbss.* .sbss2 .sbss2.* .gnu.linkonce.b.*)
+ .bss.mqtt_connected
+                0x807f0280        0x4 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .bss.mqtt_semp
+                0x807f0284        0x4 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .bss.mqtt_task
+                0x807f0288        0x4 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x807f0288                mqtt_task
+ .bss.ql_main1  0x807f028c        0x4 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x807f028c                ql_main1
+ .bss.ql_main2  0x807f0290        0x4 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x807f0290                ql_main2
+ COMMON         0x807f0294      0x96c components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x807f0294                mqtt_cli
+                0x807f0298                topic_cau_hinh
+                0x807f02fc                topic_gui
+                0x807f0360                topic_sensor
+                0x807f03c4                message_sendMQTT
+                0x807f07ac                len_message_sendMQTT
+                0x807f07b0                m
+                0x807f0b98                len
+                0x807f0b9c                topic_nhan
+                0x807f0c00                __bss_end = .
+                0x807f0c00                . = ALIGN (0x20)
+                0x601ae400                . = ((LOADADDR (.corestub) + SIZEOF (.corestub)) + SIZEOF (.data))
+
+.text           0x601ae400     0x8020
+                0x601ae400                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.* .rdata .rodata .rodata.* .gnu.linkonce.r.* .glue_7 .glue_7t .vfp11_veneer .v4_bx)
+ .glue_7        0x601ae400        0x0 linker stubs
+ .glue_7t       0x601ae400        0x0 linker stubs
+ .vfp11_veneer  0x601ae400        0x0 linker stubs
+ .v4_bx         0x601ae400        0x0 linker stubs
+ .text.main1    0x601ae400        0xa components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .text.main2    0x601ae40a        0xa components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.uart_log_init.str1.1
+                0x601ae414       0x11 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601ae425        0x3 
+ .text.uart_log_init
+                0x601ae428       0x44 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x601ae428                uart_log_init
+ .rodata.log_print.str1.1
+                0x601ae46c        0xa components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601ae476        0x2 
+ .text.log_print
+                0x601ae478       0x28 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x601ae478                log_print
+ .rodata.mqtt_app_thread.str1.1
+                0x601ae4a0      0x363 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                                0x367 (size before relaxing)
+ *fill*         0x601ae803        0x5 
+ .text.mqtt_app_thread
+                0x601ae808      0x4e8 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.mqtt_requst_result_cb.str1.1
+                0x601aecf0        0x8 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .text.mqtt_requst_result_cb
+                0x601aecf8       0x2c components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.mqtt_inpub_data_cb.str1.1
+                0x601aed24       0x32 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601aed56        0x2 
+ .text.mqtt_inpub_data_cb
+                0x601aed58       0x60 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.mqtt_state_exception_cb.str1.1
+                0x601aedb8       0x21 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601aedd9        0x3 
+ .text.mqtt_state_exception_cb
+                0x601aeddc       0x18 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.mqtt_connect_result_cb.str1.1
+                0x601aedf4        0xb components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601aedff        0x1 
+ .text.mqtt_connect_result_cb
+                0x601aee00       0x38 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .rodata.appimg_enter.str1.1
+                0x601aee38       0x4e components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601aee86        0x2 
+ .text.appimg_enter
+                0x601aee88       0xac components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x601aee88                appimg_enter
+ .rodata.appimg_exit.str1.1
+                0x601aef34       0x1d components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ *fill*         0x601aef51        0x3 
+ .text.appimg_exit
+                0x601aef54       0x1c components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                0x601aef54                appimg_exit
+ .rodata.__FUNCTION__.16754
+                0x601aef70        0xc components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .text.memcpy   0x601aef7c       0xc8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+                0x601aef7c                memcpy
+ .text.memset   0x601af044       0xa8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+                0x601af044                memset
+ .text.sprintf  0x601af0ec       0x40 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+                0x601af0ec                sprintf
+ .text.strcat   0x601af12c       0x40 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+                0x601af12c                strcat
+ *fill*         0x601af16c       0x14 
+ .text          0x601af180      0x2dc ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+                0x601af188                strcmp
+ .text.strcpy   0x601af45c       0xc4 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+                0x601af45c                strcpy
+ *fill*         0x601af520       0x20 
+ .text          0x601af540       0xdc ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strlen.o)
+                0x601af540                strlen
+ .rodata._svfprintf_r.str1.1
+                0x601af61c       0x3b ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ *fill*         0x601af657        0x1 
+ .text._svfprintf_r
+                0x601af658     0x1314 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+                0x601af658                _svfprintf_r
+ .rodata.blanks.8611
+                0x601b096c       0x10 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .rodata.zeroes.8612
+                0x601b097c       0x10 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .text.quorem   0x601b098c      0x126 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .rodata._dtoa_r.str1.1
+                0x601b0ab2        0xd ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+                                  0xf (size before relaxing)
+ *fill*         0x601b0abf        0x1 
+ .text._dtoa_r  0x601b0ac0      0xa50 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+                0x601b0ac0                _dtoa_r
+ .text._localeconv_r
+                0x601b1510        0x8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+                0x601b1510                _localeconv_r
+ .rodata._setlocale_r.str1.1
+                0x601b1518        0x8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+                                  0x9 (size before relaxing)
+ .text.__locale_mb_cur_max
+                0x601b1520        0xc ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+                0x601b1520                __locale_mb_cur_max
+ .rodata.str1.1
+                0x601b152c        0x2 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .text.__ascii_mbtowc
+                0x601b152e       0x24 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+                0x601b152e                __ascii_mbtowc
+ *fill*         0x601b1552        0xe 
+ .text          0x601b1560       0xe8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+                0x601b1560                memchr
+ .text._Balloc  0x601b1648       0x48 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1648                _Balloc
+ .text._Bfree   0x601b1690       0x12 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1690                _Bfree
+ .text.__multadd
+                0x601b16a2       0x7c ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b16a2                __multadd
+ *fill*         0x601b171e        0x2 
+ .text.__s2b    0x601b1720       0x88 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1720                __s2b
+ .text.__hi0bits
+                0x601b17a8       0x40 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b17a8                __hi0bits
+ .text.__lo0bits
+                0x601b17e8       0x5c ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b17e8                __lo0bits
+ .text.__i2b    0x601b1844       0x12 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1844                __i2b
+ .text.__multiply
+                0x601b1856      0x136 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1856                __multiply
+ .text.__pow5mult
+                0x601b198c       0x80 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b198c                __pow5mult
+ .text.__lshift
+                0x601b1a0c       0xbe ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1a0c                __lshift
+ .text.__mcmp   0x601b1aca       0x36 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1aca                __mcmp
+ .text.__mdiff  0x601b1b00       0xec ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1b00                __mdiff
+ .text.__ulp    0x601b1bec       0x58 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1bec                __ulp
+ .text.__b2d    0x601b1c44       0xa0 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1c44                __b2d
+ .text.__d2b    0x601b1ce4       0xa4 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1ce4                __d2b
+ .text.__ratio  0x601b1d88       0x64 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1d88                __ratio
+ .text.__copybits
+                0x601b1dec       0x46 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1dec                __copybits
+ .text.__any_on
+                0x601b1e32       0x42 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1e32                __any_on
+ *fill*         0x601b1e74        0x4 
+ .rodata.__mprec_bigtens
+                0x601b1e78       0x28 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1e78                __mprec_bigtens
+ .rodata.__mprec_tens
+                0x601b1ea0       0xc8 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+                0x601b1ea0                __mprec_tens
+ .rodata.p05.7384
+                0x601b1f68        0xc ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ *fill*         0x601b1f74        0x4 
+ .text.frexp    0x601b1f78       0x70 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+                0x601b1f78                frexp
+ .text.strncpy  0x601b1fe8       0x74 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+                0x601b1fe8                strncpy
+ .text.__ssprint_r
+                0x601b205c       0xea ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+                0x601b205c                __ssprint_r
+ .text.__ascii_wctomb
+                0x601b2146       0x1a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+                0x601b2146                __ascii_wctomb
+ .rodata._ctype_
+                0x601b2160      0x101 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+                0x601b2160                _ctype_
+ *fill*         0x601b2261        0x3 
+ .text.memmove  0x601b2264       0xd4 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+                0x601b2264                memmove
+ .text          0x601b2338      0x278 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+                0x601b2338                __aeabi_uidiv
+                0x601b2338                __udivsi3
+                0x601b2594                __aeabi_uidivmod
+ .text          0x601b25b0      0x2b0 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+                0x601b25b0                __divsi3
+                0x601b25b0                __aeabi_idiv
+                0x601b2844                __aeabi_idivmod
+ .text          0x601b2860        0x4 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x601b2860                __aeabi_idiv0
+                0x601b2860                __aeabi_ldiv0
+ .text          0x601b2864       0x30 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x601b2864                __aeabi_uldivmod
+ .text          0x601b2894      0x11c ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x601b2894                __udivmoddi4
+ .text.update_offset
+                0x601b29b0       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.ensure   0x601b29c8       0x82 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.add_item_to_array
+                0x601b2a4a       0x2a ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .rodata.print_string_ptr.str1.1
+                0x601b2a74        0x9 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ *fill*         0x601b2a7d        0x3 
+ .text.print_string_ptr
+                0x601b2a80      0x130 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_strdup.constprop.0
+                0x601b2bb0       0x2c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.add_item_to_object.constprop.0
+                0x601b2bdc       0x54 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_New_Item.isra.0
+                0x601b2c30       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .rodata.print_value.str1.1
+                0x601b2c48       0x22 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ *fill*         0x601b2c6a        0x6 
+ .text.print_value
+                0x601b2c70      0x3a8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.print.constprop.0
+                0x601b3018       0x94 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .text.cJSON_Delete
+                0x601b30ac       0x48 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b30ac                cJSON_Delete
+ .text.cJSON_Print
+                0x601b30f4        0x6 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b30f4                cJSON_Print
+ *fill*         0x601b30fa        0x6 
+ .text.cJSON_CreateNumber
+                0x601b3100       0x6c ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b3100                cJSON_CreateNumber
+ .text.cJSON_AddNumberToObject
+                0x601b316c       0x28 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b316c                cJSON_AddNumberToObject
+ .text.cJSON_CreateObject
+                0x601b3194       0x18 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b3194                cJSON_CreateObject
+ .text.cJSON_free
+                0x601b31ac        0xc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                0x601b31ac                cJSON_free
+ .text.sscanf   0x601b31b8       0x50 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+                0x601b31b8                sscanf
+ .text.__seofread
+                0x601b3208        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+                0x601b3208                __seofread
+ .text.strncmp  0x601b320c       0x84 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+                0x601b320c                strncmp
+ .text.sulp     0x601b3290       0x34 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .rodata._strtod_l.str1.1
+                0x601b32c4       0x22 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+                                  0xd (size before relaxing)
+ *fill*         0x601b32c4        0x4 
+ .text._strtod_l
+                0x601b32c8      0xb8c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+                0x601b32c8                _strtod_l
+ .text._strtod_r
+                0x601b3e54        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+                0x601b3e54                _strtod_r
+ .rodata.fpi.7544
+                0x601b3e60       0x14 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .rodata.fpinan.7580
+                0x601b3e74       0x14 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .rodata.tinytens
+                0x601b3e88       0x28 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .rodata.__ssvfscanf_r.str1.1
+                0x601b3eb0        0x5 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+                                  0x6 (size before relaxing)
+ *fill*         0x601b3eb5        0x3 
+ .text.__ssvfscanf_r
+                0x601b3eb8     0x12bc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+                0x601b3eb8                __ssvfscanf_r
+ .rodata.basefix.8680
+                0x601b5174       0x22 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .text.rshift   0x601b5196       0xa6 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .text.__hexdig_fun
+                0x601b523c       0x2a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+                0x601b523c                __hexdig_fun
+ *fill*         0x601b5266        0x2 
+ .text.__gethex
+                0x601b5268      0x454 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+                0x601b5268                __gethex
+ .text.L_shift  0x601b56bc       0x24 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .text.__match  0x601b56e0       0x28 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+                0x601b56e0                __match
+ .text.__hexnan
+                0x601b5708      0x138 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+                0x601b5708                __hexnan
+ .text.iswspace
+                0x601b5840        0x6 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+                0x601b5840                iswspace
+ .rodata.str1.1
+                0x601b5846        0x3 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ *fill*         0x601b5846        0x2 
+ .rodata._C_numeric_locale
+                0x601b5848        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+                0x601b5848                _C_numeric_locale
+ .rodata._mbrtowc_r.str1.1
+                0x601b5854        0x1 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .text._mbrtowc_r
+                0x601b5854       0x34 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+                0x601b5854                _mbrtowc_r
+ .text.__sccl   0x601b5888       0x74 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+                0x601b5888                __sccl
+ .text.nanf     0x601b58fc        0xc ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+                0x601b58fc                nanf
+ .text.nan      0x601b5908       0x10 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+                0x601b5908                nan
+ .text._strtoll_l.isra.0
+                0x601b5918      0x12c ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .text._strtoll_r
+                0x601b5a44        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+                0x601b5a44                _strtoll_r
+ .text._strtol_l.isra.0
+                0x601b5a48       0xec ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x601b5b34        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+                0x601b5b34                _strtol_r
+ .text._strtoull_l.isra.0
+                0x601b5b38      0x134 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .text._strtoull_r
+                0x601b5c6c        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+                0x601b5c6c                _strtoull_r
+ .text._strtoul_l.isra.0
+                0x601b5c70       0xf4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .text._strtoul_r
+                0x601b5d64        0x4 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+                0x601b5d64                _strtoul_r
+ .text._sungetc_r
+                0x601b5d68       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+                0x601b5d68                _sungetc_r
+ .text.__ssrefill_r
+                0x601b5de2       0x3a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+                0x601b5de2                __ssrefill_r
+ .text._sfread_r
+                0x601b5e1c       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+                0x601b5e1c                _sfread_r
+ .text.__submore
+                0x601b5e96       0x70 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+                0x601b5e96                __submore
+ *fill*         0x601b5f06        0x2 
+ .text.iswspace_l
+                0x601b5f08       0x14 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+                0x601b5f08                iswspace_l
+ .text          0x601b5f1c      0x378 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+                0x601b5f1c                __aeabi_drsub
+                0x601b5f24                __aeabi_dsub
+                0x601b5f24                __subdf3
+                0x601b5f28                __aeabi_dadd
+                0x601b5f28                __adddf3
+                0x601b61a0                __floatunsidf
+                0x601b61a0                __aeabi_ui2d
+                0x601b61c0                __floatsidf
+                0x601b61c0                __aeabi_i2d
+                0x601b61e4                __aeabi_f2d
+                0x601b61e4                __extendsfdf2
+                0x601b6228                __floatundidf
+                0x601b6228                __aeabi_ul2d
+                0x601b6238                __floatdidf
+                0x601b6238                __aeabi_l2d
+ .text          0x601b6294       0x30 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+                0x601b6294                __fixdfdi
+                0x601b6294                __aeabi_d2lz
+ *fill*         0x601b62c4        0x4 
+ .text          0x601b62c8       0x40 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)
+                0x601b62c8                __fixunsdfdi
+                0x601b62c8                __aeabi_d2ulz
+ .text.__stub   0x601b6308      0x110 linker stubs
+                0x601b6418                __text_end = .
+                0x601b6420                . = ALIGN (0x20)
+ *fill*         0x601b6418        0x8 
+                0x601ae400                __text_load_start = LOADADDR (.text)
+
+.iplt           0x601b6420        0x0
+ .iplt          0x601b6420        0x0 lib/core_stub.o
+
+.rel.dyn        0x601b6420        0x0
+ .rel.iplt      0x601b6420        0x0 lib/core_stub.o
+
+.ARM.exidx      0x601b6420        0x8
+ .ARM.exidx     0x601b6420        0x8 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.init_array     0x601b6440        0x0
+                0x601b6440                __init_array_start = .
+ *(.init_array*)
+                0x601b6440                __init_array_end = .
+                0x601b6440                . = ALIGN (0x20)
+                0x601b6440                __init_array_load_start = LOADADDR (.init_array)
+                0x601b6440                __flash_end = (ADDR (.init_array) + SIZEOF (.init_array))
+                0x807f0c00                __ram_end = (ADDR (.bss) + SIZEOF (.bss))
+                0x00000001                ASSERT ((__flash_end <= (ORIGIN (flash) + LENGTH (flash))), FLASH overflow)
+                0x00000001                ASSERT ((__ram_end <= (ORIGIN (ram) + LENGTH (ram))), RAM overflow)
+
+.comment        0x00000000       0xc6
+ *(.comment)
+ .comment       0x00000000       0x79 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                                 0x7a (size before relaxing)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+ .comment       0x00000079       0x7a ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+ .comment       0x00000079       0x4d ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                                 0x4e (size before relaxing)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .comment       0x000000c6       0x7a ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x25 lib/core_stub.o
+ .ARM.attributes
+                0x00000025       0x37 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .ARM.attributes
+                0x0000005c       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000093       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000ca       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x00000101       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x00000138       0x25 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000015d       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000194       0x1d ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000001b1       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x000001e8       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x0000021f       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x00000256       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000028d       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000002c4       0x21 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x000002e5       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000031c       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-s_frexp.o)
+ .ARM.attributes
+                0x00000353       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x0000038a       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000003c1       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x000003f8       0x3d ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000435       0x37 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000046c       0x19 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000485       0x19 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000049e       0x19 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000004b7       0x19 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000004d0       0x2d ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000004fd       0x37 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .ARM.attributes
+                0x00000534       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sscanf.o)
+ .ARM.attributes
+                0x0000056b       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000005a2       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x000005d9       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtod.o)
+ .ARM.attributes
+                0x00000610       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfscanf.o)
+ .ARM.attributes
+                0x00000647       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-gethex.o)
+ .ARM.attributes
+                0x0000067e       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-gdtoa-hexnan.o)
+ .ARM.attributes
+                0x000006b5       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace.o)
+ .ARM.attributes
+                0x000006ec       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-lnumeric.o)
+ .ARM.attributes
+                0x00000723       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-mbrtowc.o)
+ .ARM.attributes
+                0x0000075a       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sccl.o)
+ .ARM.attributes
+                0x00000791       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-sf_nan.o)
+ .ARM.attributes
+                0x000007c8       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x000007ff       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoll.o)
+ .ARM.attributes
+                0x00000836       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000086d       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoull.o)
+ .ARM.attributes
+                0x000008a4       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-strtoul.o)
+ .ARM.attributes
+                0x000008db       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-svfiscanf.o)
+ .ARM.attributes
+                0x00000912       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-ungetc.o)
+ .ARM.attributes
+                0x00000949       0x37 ..\..\components\newlib\newlib-3.1.0\armca5\libc.a(lib_a-iswspace_l.o)
+ .ARM.attributes
+                0x00000980       0x19 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000999       0x2d ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+ .ARM.attributes
+                0x000009c6       0x2d ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)
+
+/DISCARD/
+ *(.dynstr*)
+ *(.dynamic*)
+ *(.plt*)
+ *(.interp*)
+ *(.gnu*)
+OUTPUT(hex\examples\SLOGGERS6V001_APP.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x79a1
+ .debug_info    0x00000000     0x3484 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_info    0x00003484     0x451d ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_abbrev   0x00000000      0xa77
+ .debug_abbrev  0x00000000      0x4e7 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_abbrev  0x000004e7      0x590 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_loc      0x00000000     0x5264
+ .debug_loc     0x00000000      0x5db components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_loc     0x000005db     0x4c89 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_aranges  0x00000000      0x378
+ .debug_aranges
+                0x00000000       0x68 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_aranges
+                0x00000068      0x310 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_ranges   0x00000000      0x6d8
+ .debug_ranges  0x00000000       0xe0 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_ranges  0x000000e0      0x5f8 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_line     0x00000000     0x370a
+ .debug_line    0x00000000      0x8a8 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_line    0x000008a8     0x2e62 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+
+.debug_str      0x00000000     0x3674
+ .debug_str     0x00000000     0x28f1 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+                               0x2a4d (size before relaxing)
+ .debug_str     0x000028f1      0xd83 ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+                                0xfbe (size before relaxing)
+
+.debug_frame    0x00000000      0xd8c
+ .debug_frame   0x00000000      0x154 components/ql-application/init/CMakeFiles/SLOGGERS6V001_APP.dir/ql_init.c.obj
+ .debug_frame   0x00000154       0x68 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x000001bc       0x34 ../../components/newlib/newlib-3.1.0/armca5/libc.a(lib_a-memchr.o)
+ .debug_frame   0x000001f0       0x20 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000210       0x20 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000230       0x2c ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000025c       0x38 ../../prebuilts/win32/gcc-arm-none-eabi/gcc-arm-none-eabi-9.2.1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000294      0x9fc ..\..\components\ql-application\HiLinkSDK\lib\tl8251\lib\debug\libhilinkbtsdk.a(cJSON.c.o)
+ .debug_frame   0x00000c90       0xac ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000d3c       0x30 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixdfdi.o)
+ .debug_frame   0x00000d6c       0x20 ..\..\prebuilts\win32\gcc-arm-none-eabi\gcc-arm-none-eabi-9.2.1\lib\gcc\arm-none-eabi\9.2.1\thumb\v7+fp\hard\libgcc.a(_fixunsdfdi.o)

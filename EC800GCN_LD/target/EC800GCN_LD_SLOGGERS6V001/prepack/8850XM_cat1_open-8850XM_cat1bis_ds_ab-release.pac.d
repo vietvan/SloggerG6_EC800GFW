@@ -1,0 +1,1 @@
+hex\8850XM_cat1_open-8850XM_cat1bis_ds_ab-release.pac: hex\norfdl.sign.img hex\boot.sign.img hex\8850XM_cat1bis_ds_ab_nvitem.bin hex\8850XM_cat1_open.sign.img hex\8850XM_cat1bis_ds_ab_modem.cpio hex\8850XM_cat1bis_ds_ab_indeltanv.cpio hex\spl.sign.img ..\..\tools\pacgen.py

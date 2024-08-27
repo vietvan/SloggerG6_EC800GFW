@@ -1,17 +1,28 @@
 /*================================================================
-  Copyright (c) 2020 Quectel Wireless Solution, Co., Ltd.  All Rights Reserved.
-  Quectel Wireless Solution Proprietary and Confidential.
-=================================================================*/
-/*=================================================================
+Build all
+./build_all new EC800GCN_LD SLoggerS6V001
 
-                        EDIT HISTORY FOR MODULE
+build app only
+./build_all r EC800GCN_LD SLoggerS6V001
 
-This section contains comments describing changes made to the module.
-Notice that changes are listed in reverse chronological order.
+xoa du an
+./build_all clean
 
-WHEN              WHO         WHAT, WHERE, WHY
-------------     -------     -------------------------------------------------------------------------------
+//programmer app
+..\UpgradeDownload_R25.20.3901\Bin\CmdDloader.exe -pac target\EC800GCN_LD_SLOGGERS6V001\app\SLOGGERS6V001_APP.pac -port 18
+//full programmer
+..\UpgradeDownload_R25.20.3901\Bin\CmdDloader.exe -pac target\EC800GCN_LD_SLOGGERS6V001\8850XM_cat1_open_SLOGGERS6V001_merge.pac -port 18
 
+//tạo fota thay doi nho
+
+//Ver 0.1: đẩy dữ liệu lên MQTT hiveMQ test
+
+//tao full fota app
+tools\win32\dtools.exe fotacreate2 --single-pac bb.pac,setting\fota8910.xml output.pack -d v
+
+
+
+SLoggerS6/866207071305126/cfg/sensor
 =================================================================*/
 
 #include <stdio.h>
@@ -33,637 +44,365 @@ WHEN              WHO         WHAT, WHERE, WHY
 #include "ql_sim_demo.h"
 #include "power_demo.h"
 #include "ql_api_dev.h"
-
-#ifdef QL_APP_FEATURE_USB
-#include "usb_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_MMS
-#include "mms_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_UART
-#include "uart_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_RS485
-#include "rs485_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_AUDIO
-#include "audio_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_LCD
-#include "lcd_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_LVGL
-#include "lvgl_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_HTTP
-#include "http_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_FTP
-#include "ftp_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_MQTT
+#include"ql_uart.h"
 #include "mqtt_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_SSL
-#include "ssl_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_PING
-#include "ping_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_NTP
-#include "ntp_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_LBS
-#include "lbs_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_QTHSDK
-#include "qthsdk_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_SOCKET
-#include "socket_demo.h"
-#endif
+#include "cJSON.h"
+#include "ql_mqttclient.h"
+#include "ql_api_datacall.h"
 
-
-#ifdef QL_APP_FEATURE_FILE_ZIP
-#include "zip_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_BT
-
-#ifdef QL_APP_FEATURE_BT_SPP
-#include "bt_spp_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_BT_HFP
-#include "bt_hfp_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_BT_A2DP_AVRCP
-#include "bt_a2dp_avrcp_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_BLE_GATT
-#include "ble_gatt_demo.h"
-#endif
-
-#endif
-
-#ifdef QL_APP_FEATURE_FILE
-#include "ql_fs_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_SMS
-#include "sms_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_VOICE_CALL
-#include "voice_call_demo.h"
-#endif
-#ifdef QL_APP_FEATURE_GNSS
-#include "gnss_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SPI
-#include "spi_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SPI_NOR_FLASH
-#include "spi_nor_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SPI4_EXT_NOR_SFFS
-#include "spi4_ext_nor_sffs_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SPI6_EXT_NOR
-#include "spi6_ext_nor_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SPI_NAND_FLASH
-#include "spi_nand_flash_demo.h"
-#endif
-
-
-#ifdef QL_APP_FEATURE_CAMERA
-#include "camera_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_WIFISCAN
-#include "wifi_scan_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_HTTP_FOTA
-#include "fota_http_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_FTP_FOTA
-#include "fota_ftp_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_DECODER
-#include "decoder_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_APP_IMG_AT
-#include "app_img_at_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_VOLTE
-#include "volte_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_VSIM_ADAPT
-#include "vsim_adapt_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_KEYPAD
-#include "keypad_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_RTC
-#include "ql_rtc_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SECURE_BOOT
-#include "ql_api_dev.h"
-#endif
-
-#ifdef QL_APP_FEATURE_USB_CHARGE
-#include "charge_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_QCLOUD_IOT
-#include "qcloud_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_VIRT_AT
-#include "ql_virt_at_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_TTS
-#include "tts_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_I2C
-#include "I2C_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_PBK
-#include "ql_pbk_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SDMMC
-#include "ql_sdmmc_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_ALI_LINKSDK
-#include "ali_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_USBNET
-#include "usbnet_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_FS_NAND_FLASH
-#include "fs_nand_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_FS_NOR_FLASH
-#include "fs_nor_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_SFTP
-#include "sftp_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_MXML
-#include "mxml_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_CLOUDOTA
-#include "cloudota_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_EMBED_NOR_FLASH
-#include "embed_nor_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_EXT_NOR_FLASH
-#include "ext_nor_flash_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_HILINK
-#include "hilink.h"
-#endif
-
-#ifdef QL_APP_FEATURE_PSM
-#include "psm_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_STK
-#include "stk_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_GPRS_DATA_TRANSFER
-#include "gprs_data_transfer_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_TP
-#include "tp_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_ALIOTSMARTCARD
-#include "aliotsmartcard_demo.h"
-#endif
-
-#ifdef QL_APP_FEATURE_ALIPAY_IOT_SDK
-extern void ql_alipay_iot_sdk_app_init(void);
-#endif
-
-#ifdef QL_APP_FEATURE_NTRIP_RTK
-#include "ntrip_rtk_demo.h"
-#endif
-
-
-#ifdef QL_APP_FEATURE_ETHERNET
-#include "ethernet_demo.h"
-#endif
-
+#define FW_VERSION 0.1
 #define QL_INIT_LOG_LEVEL	QL_LOG_LEVEL_INFO
 #define QL_INIT_LOG(msg, ...)			QL_LOG(QL_INIT_LOG_LEVEL, "ql_INIT", msg, ##__VA_ARGS__)
 #define QL_INIT_LOG_PUSH(msg, ...)	QL_LOG_PUSH("ql_INIT", msg, ##__VA_ARGS__)
+#define USE_LOG
+//////////////////////biến lưu id task
+ql_task_t ql_main1 = NULL;
+ql_task_t ql_main2 = NULL;
+ql_task_t mqtt_task = NULL;
 
-static void prvInvokeGlobalCtors(void)
+char m[1000];
+char message_sendMQTT[1000];
+int len,len_message_sendMQTT;
+/////////////////////////define MQTT
+#define MQTT_CLIENT_QUECTEL_URL                  "mqtt://broker.hivemq.com:1883"
+// #define MQTT_CLIENT_QUECTEL_URL                  "mqtt://giamsatnhietdo.vn:1883"
+// #define MQTT_CLIENT_QUECTEL_URL                  "mqtt://183.80.84.154:1883"
+
+#define MQTT_CLIENT_IDENTITY        "Ec200U_test"
+#define MQTT_CLIENT_USER            ""
+#define MQTT_CLIENT_PASS            ""
+static ql_sem_t  mqtt_semp;
+static int  mqtt_connected = 0;
+char topic_gui[100];
+char topic_sensor[100];
+char topic_nhan[100];
+char topic_cau_hinh[100];
+mqtt_client_t  mqtt_cli;
+
+void uart_log_init(void)
 {
-    extern void (*__init_array_start[])();
-    extern void (*__init_array_end[])();
+	#ifdef  USE_LOG
+    ql_uart_config_s uart_cfg = {0};
+    unsigned char data[] = "EC800G - Test1\r\n";
+    uart_cfg.baudrate = QL_UART_BAUD_115200;
+    uart_cfg.flow_ctrl = QL_FC_NONE;
+    uart_cfg.data_bit = QL_UART_DATABIT_8;
+    uart_cfg.stop_bit = QL_UART_STOP_1;
+    uart_cfg.parity_bit = QL_UART_PARITY_NONE;
 
-    size_t count = __init_array_end - __init_array_start;
-    for (size_t i = 0; i < count; ++i)
-        __init_array_start[i]();
+    ql_uart_set_dcbconfig(QL_USB_PORT_AT, &uart_cfg);
+	ql_uart_open(QL_USB_PORT_AT);
+
+	ql_uart_write(QL_USB_PORT_AT, data, strlen((char *)data));
+	#endif
+}
+void log_print(char *data)
+{
+	#ifdef  USE_LOG
+	char mm[1000];
+	int length;
+	length = sprintf(mm,"LOG: %s\r\n",data);
+	ql_uart_write(QL_USB_PORT_AT, (unsigned char *)mm, length);
+	#endif
+}
+///
+static void mqtt_state_exception_cb(mqtt_client_t *client)
+{
+	log_print("mqtt session abnormal disconnect");
+	mqtt_connected = 0;
 }
 
-static void ql_init_demo_thread(void *param)
+static void mqtt_connect_result_cb(mqtt_client_t *client, void *arg, mqtt_connection_status_e status)
 {
-    QL_INIT_LOG("init demo thread enter, param 0x%x", param);
+	sprintf(m,"status: %d", status);
+	log_print(m);
+	if(status == 0){
+		mqtt_connected = 1;
+	}
+	ql_rtos_semaphore_release(mqtt_semp);
+}
 
-/*Caution:If the macro of secure boot and the function are opened, download firmware and restart will enable secure boot.
-          the secret key cannot be changed forever*/    
-#ifdef QL_APP_FEATURE_SECURE_BOOT
-    //ql_dev_enable_secure_boot();
-#endif
+static void mqtt_requst_result_cb(mqtt_client_t *client, void *arg,int err)
+{
+	sprintf(m,"err: %d", err);
+	log_print(m);
+	ql_rtos_semaphore_release(mqtt_semp);
+}
+static void mqtt_inpub_data_cb(mqtt_client_t *client, void *arg, int pkt_id, const char *topic, const unsigned char *payload, unsigned short payload_len)
+{
+    //  char buff[1000];
+	sprintf(m,"topic: %s", topic);
+	log_print(m);
+	sprintf(m,"payload: %s %d", payload,payload_len);
+	log_print(m);
 
-#if 0
-    ql_gpio_app_init();
-    ql_gpioint_app_init();
-#endif
+	//kiểm tra nếu topic là topic nhận thì mới xử lý
+    if(strcmp(topic_nhan,topic) == 0)
+    {
+		sprintf(m,"dung toppic nhan du lieu");
+        log_print(m);
 
-#ifdef QL_APP_FEATURE_LEDCFG
-    ql_ledcfg_app_init();
-#endif
+		// cJSON *pJsonRoot = cJSON_Parse((char*)payload);
+		// cJSON *cmd = cJSON_GetObjectItem(pJsonRoot,"cmd");
 
-/*
-	1. 验证usb虚拟U盘功能需要在target.config中打开宏CONFIG_QUEC_PROJECT_FEATURE_USB_MASS_STORAGE
-	2. 映射sd卡到PC端需要打开sd卡demo(ql_sdmmc_app_init)去挂载sd卡文件系统
-	3. 映射6线flash到PC端需要打开6线flash demo(ql_spi6_ext_nor_flash_demo_init)挂载6线flash文件系统
-*/
-#ifdef QL_APP_FEATURE_USB
-	//ql_usb_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_AUDIO
-    //ql_audio_app_init();
-#ifdef QL_APP_FEATURE_HEADSET_DET
-    //ql_headset_det_app_init();
-#endif
-#endif
-
-#ifdef QL_APP_FEATURE_TTS
-/*
- *demo1直接调用TTS库和audio播放api进行TTS播放，
- *demo2对TTS库和audio的播放api进行封装，封装后的TTS api与我司asr系列的TTS api类似
- *注意：由于audio播放器只有一个，因此这两个demo只能运行一个，不能两个demo同时播放
- *用户如需将TTS库放到内核，则在target.config中将 CONFIG_QUEC_PROJECT_FEATURE_TTS_IN_KERNEL 置为 y,
-  并修改分区，将内核分区增大250k左右，其余的内容不变
- */
-	//ql_tts_demo1_init();
-	//ql_tts_demo2_init();
-#endif
-
-#ifdef QL_APP_FEATURE_LCD
-    //ql_lcd_app_init();
-#endif
-#ifdef QL_APP_FEATURE_LVGL
-    //ql_lvgl_app_init();
-#endif
-    //ql_nw_app_init();
-    //ql_datacall_app_init();
-	//ql_osi_demo_init();	
-	
-#ifdef QL_APP_FEATURE_SDMMC
-	//ql_sdmmc_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FILE
-	//ql_fs_demo_init();
-#endif
-
-    //ql_dev_app_init();
-    //ql_adc_app_init();
+		//nếu cmd tồn tại thì mới thực hiện
+    }
     
-#ifdef QL_APP_FEATURE_UART
-    //ql_uart_app_init();
-    //ql_uart_rb_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_RS485
-    //ql_rs485_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_BT
-
-#ifdef QL_APP_FEATURE_BT_SPP
-#endif
-
-#ifdef QL_APP_FEATURE_BLE_GATT
-	//ql_ble_gatt_server_demo_init();
-    //ql_ble_gatt_client_demo_init();
-#endif
-#ifdef QL_APP_FEATURE_BT_HFP
-    //ql_bt_hfp_demo_init();
-#endif
-#ifdef QL_APP_FEATURE_BT_A2DP_AVRCP
-    //ql_bt_a2dp_avrcp_app_init();
-#endif
-#endif
-    //ql_sim_app_init();
-    ql_power_app_init();
-#ifdef QL_APP_FEATURE_PSM
-    //ql_psm_app_init();
-#endif
-
-
-#ifdef QL_APP_FEATURE_CLOUDOTA    
-	//ql_cloudota_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_PWK
-    //ql_pwrkey_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FTP
-	//ql_ftp_app_init();
-#endif
-#ifdef QL_APP_FEATURE_HTTP
-	//ql_http_app_init();
-	//ql_http_post_app_init();
-	//ql_http_put_app_init();
-	//ql_https_get_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_MQTT
-	//ql_mqtt_app_init();
-#endif
-#ifdef QL_APP_FEATURE_SSL
-	//ql_ssl_app_init();
-#endif
-#ifdef QL_APP_FEATURE_PING
-	//ql_ping_app_init();
-#endif
-#ifdef QL_APP_FEATURE_NTP
-	//ql_ntp_app_init();
-#endif
-#ifdef QL_APP_FEATURE_LBS
-	//ql_lbs_app_init();
-#if defined (QL_APP_FEATURE_WIFISCAN)
-	//ql_lbs_wifi_app_init();
-#endif
-#endif
-#ifdef QL_APP_FEATURE_QTHSDK
-	//ql_qthsdk_app_init();
-#endif
-#ifdef QL_APP_FEATURE_SOCKET
-	//ql_socket_app_init();
-#endif
-#ifdef QL_APP_FEATURE_MMS
-   //ql_mms_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SMS
-	//ql_sms_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_PBK
-    //ql_pbk_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_STK
-    // ql_stk_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_VOICE_CALL
-	//ql_voice_call_app_init();
-#endif
-#ifdef QL_APP_FEATURE_VOLTE
-	//ql_volte_app_init();
-#endif
-#ifdef QL_APP_FEATURE_VSIM_ADAPT
-    //ql_vsim_adapt_init();
-#endif
-
-#ifdef QL_APP_FEATURE_GNSS
-    //ql_gnss_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FILE_ZIP
-    //ql_zip_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SPI
-    //ql_spi_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_CAMERA
-    /*因为camera被i2c用来演示功能，所以打开camera demo时不可同时打开i2c demo*/
-    /*because camera as a demonstration for i2c, so camera demo can not be opened when the i2c demo open */
-    //ql_camera_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SPI_NOR_FLASH
-    //ql_spi_nor_flash_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SPI4_EXT_NOR_SFFS
-    //ql_spi4_ext_nor_sffs_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SPI6_EXT_NOR
-    //ql_spi6_ext_nor_flash_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SPI_NAND_FLASH
-    //ql_spi_nand_flash_demo_init();
-#endif
-
-
-#if defined (QL_APP_FEATURE_WIFISCAN)
-    //ql_wifiscan_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_HTTP_FOTA
-	//ql_fota_http_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FTP_FOTA
-    //ql_fota_ftp_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_DECODER
-    //ql_decoder_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_APP_IMG_AT
-    //ql_app_img_at_init();
-#endif
-
-#ifdef QL_APP_FEATURE_KEYPAD
-    //ql_keypad_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_RTC
-    //ql_rtc_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_USB_CHARGE
-    //ql_charge_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_ALI_LINKSDK
-	//ql_ali_sdk_mqtt_client_test_init();		/* mqtt_basic_demo.c       */
-	//ql_ali_sdk_bootstrap_test_init();			/* bootstrap_posix_demo.c  */
-	//ql_ali_sdk_cota_test_init();				/* cota_basic_demo.c       */
-	//ql_ali_sdk_das_test_init();				/* das_basic_demo.c        */
-	//ql_ali_sdk_data_model_test_init();		/* data_model_basic_demo.c */
-	//ql_ali_sdk_devinfo_test_init();			/* devinfo_posix_demo.c    */
-	//ql_ali_sdk_diag_test_init();				/* diag_basic_demo.c       */
-	//ql_ali_sdk_dynreg_test_init();			/* dynreg_basic_demo.c     */
-	//ql_ali_sdk_dynregmq_test_init();			/* dynregmq_basic_demo.c   */
-	//ql_ali_sdk_fota_test_init();				/* fota_basic_demo.c       */
-	//ql_ali_sdk_http_client_test_init();		/* http_basic_demo.c       */
-	//ql_ali_sdk_logpost_test_init();			/* logpost_basic_demo.c    */
-	//ql_ali_sdk_mqtt_broadcast_test_init();	/* mqtt_broadcast_demo.c   */
-	//ql_ali_sdk_rrpc_test_init();				/* mqtt_rrpc_demo.c        */
-	//ql_ali_sdk_ntp_test_init();				/* ntp_posix_demo.c        */
-	//ql_ali_sdk_shadow_test_init();			/* shadow_basic_demo.c     */
-#endif
-
-#ifdef QL_APP_FEATURE_QCLOUD_IOT
-    //light_data_template_sample_start();/* light_data_template_sample_start_demo.c  */
-	//mqtt_sample_start();			   /* mqtt_sample_start_demo.c  */
-    //data_template_sample_start();      /* data_template_sample_start_demo.c  */
-	//ota_mqtt_sample_start();		   /* ota_mqtt_sample_start_demo.c  */
-    //raw_data_sample_start();           /* raw_data_sample_start_demo.c  */
-    //dynreg_dev_sample_start();         /* dynreg_dev_sample_start_demo.c  */
-    //gateway_sample_start();            /* gateway_sample_start_demo.c  */
-#endif
-	
-#ifdef QL_APP_FEATURE_VIRT_AT
-    //ql_virt_at_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_I2C
-    /*因为i2c通过camera来演示功能，所以打开i2c demo时不可同时打开camera demo*/
-    /*because I2C uses the camera as a demonstration, so i2c demo can not be opened when the camera demo open */
-    //ql_i2c_demo_init();      
-#endif
-
-#ifdef QL_APP_FEATURE_USBNET
-	//ql_usbnet_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FS_NAND_FLASH
-    //ql_fs_nand_flash_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_FS_NOR_FLASH
-    //ql_fs_nor_flash_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_SFTP
-	//ql_sftp_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_MXML
-	//ql_mxml_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_EMBED_NOR_FLASH
-    //ql_embed_nor_flash_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_EXT_NOR_FLASH
-    //ql_ext_nor_flash_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_HILINK
-    //hilink_main();
-#endif
-
-#ifdef QL_APP_FEATURE_GPRS_DATA_TRANSFER
-	//ql_gprs_data_transfer_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_TP
-    //ql_tp_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_ALIPAY_IOT_SDK
-	//ql_alipay_iot_sdk_app_init();
-#endif
-#ifdef QL_APP_FEATURE_ALIOTSMARTCARD
-    //ql_aliotsmartcard_app_init();
-#endif
-
-#ifdef QL_APP_FEATURE_NTRIP_RTK
-    //ql_ntrip_rtk_demo_init();
-#endif
-
-#ifdef QL_APP_FEATURE_ETHERNET
-    //ql_ethernet_demo_init();
-#endif
-
-    ql_rtos_task_sleep_ms(1000); /*Chaos change: set to 1000 for the camera power on*/
-
-    /*To save logs to sdcard/nandflash, you must call this function after initializing sdcard/nandflash file system;*/
-    /*Logs before this point can be output via USB or debug port, which can be configured in prvTraceInit of app_start*/
-    //ql_fs_trace_init();
-
-    ql_rtos_task_delete(NULL);
+    
 }
 
+static void mqtt_disconnect_result_cb(mqtt_client_t *client, void *arg,int err)
+{
+	sprintf(m,"err: %d", err);
+	log_print(m);
+	ql_rtos_semaphore_release(mqtt_semp);
+}
+
+static void mqtt_app_thread(void * arg)
+{
+    char imei[100]={0};
+	int ret = 0;
+	int i = 0;
+	int profile_idx = 1;
+    ql_data_call_info_s info;
+	char ip4_addr_str[16] = {0};
+	uint8_t nSim = 0;
+	uint16_t sim_cid;
+    struct mqtt_connect_client_info_t  client_info = {0};
+    uint16_t dem = 0;
+	ql_rtos_semaphore_create(&mqtt_semp, 0);
+	ql_rtos_task_sleep_s(10);
+
+    //get imei
+    ql_dev_get_imei(imei,30,0);
+    // log_print("imei:");
+    // log_print(imei);
+	//tạo topic gửi data
+    strcpy(topic_cau_hinh,"SLoggerS6/");
+    strcat(topic_cau_hinh,imei);
+    strcat(topic_cau_hinh,"/cfg/setting");
+
+    strcpy(topic_nhan,"SLoggerS6/");
+    strcat(topic_nhan,imei);
+    strcat(topic_nhan,"/cfg/cmd");
+
+	//tạo topic nhận data
+    strcpy(topic_gui,"SLoggerS6/");
+    strcat(topic_gui,imei);
+    strcat(topic_gui,"/get/response");
+
+	//tạo topic gửi sensor
+    strcpy(topic_sensor,"SLoggerS6/");
+    strcat(topic_sensor,imei);
+    strcat(topic_sensor,"/cfg/sensor");
+
+    sprintf(m,"topic nhan cmd %s", topic_nhan);
+    log_print(m);
+    sprintf(m,"topic gui %s", topic_gui);
+    log_print(m);
+    sprintf(m,"topic cau hinh %s", topic_cau_hinh);
+    log_print(m);
+    sprintf(m,"topic sensor %s", topic_sensor);
+    log_print(m);
+    
+ while(1)
+ { 
+	log_print("========== mqtt demo start ==========");
+	log_print("wait for network register done");
+		
+	while((ret = ql_network_register_wait(nSim, 120)) != 0 && i < 10){
+    	i++;
+		ql_rtos_task_sleep_s(1);
+	}
+	if(ret == 0){
+		i = 0;
+		log_print("====network registered!!!!====");
+	}else{
+		log_print("====network register failure!!!!!====");
+		goto exit;
+	}
+
+	ql_set_data_call_asyn_mode(nSim, profile_idx, 0);
+
+	log_print("===start data call====");
+	ret=ql_start_data_call(nSim, profile_idx, QL_PDP_TYPE_IP, "uninet", NULL, NULL, 0); 
+    sprintf(m,"===data call result:%d", ret);
+    log_print(m);
+	if(ret != 0)
+    {
+		log_print("====data call failure!!!!=====");
+	}
+	memset(&info, 0x00, sizeof(ql_data_call_info_s));
+	
+	ret = ql_get_data_call_info(nSim, profile_idx, &info);
+	if(ret != 0)
+    {
+		sprintf(m,"ql_get_data_call_info ret: %d", ret);
+		log_print(m);
+		ql_stop_data_call(nSim, profile_idx);
+		goto exit;
+	}
+    sprintf(m,"info->profile_idx: %d", info.profile_idx);
+    log_print(m);
+    sprintf(m,"info->ip_version: %d", info.ip_version);
+    log_print(m);
+    sprintf(m,"info->v4.state: %d", info.v4.state);
+    log_print(m); 
+    inet_ntop(AF_INET, &info.v4.addr.ip, ip4_addr_str, sizeof(ip4_addr_str));
+    sprintf(m,"info.v4.addr.ip: %s\r\n", ip4_addr_str);
+    log_print(m);
+	inet_ntop(AF_INET, &info.v4.addr.pri_dns, ip4_addr_str, sizeof(ip4_addr_str));
+    sprintf(m,"info.v4.addr.pri_dns: %s\r\n", ip4_addr_str);
+    log_print(m);
+	inet_ntop(AF_INET, &info.v4.addr.sec_dns, ip4_addr_str, sizeof(ip4_addr_str));
+    sprintf(m,"info.v4.addr.sec_dns: %s\r\n", ip4_addr_str);
+    log_print(m);
+
+	
+	while(1)
+	{	
+
+		int ret = MQTTCLIENT_SUCCESS;
+		sprintf(m,"==============mqtt_client_test[%d]================\n",1);
+		log_print(m);
+
+		if(QL_DATACALL_SUCCESS != ql_bind_sim_and_profile(nSim, profile_idx, &sim_cid))
+		{
+			log_print("nSim or profile_idx is invalid!!!!");
+			break;
+		}
+		
+		if(ql_mqtt_client_init(&mqtt_cli, sim_cid) != MQTTCLIENT_SUCCESS){
+			log_print("mqtt client init failed!!!!");
+			break;
+		}
+;
+		sprintf(m,"mqtt_cli:%d", mqtt_cli);
+		log_print(m);
+
+
+		client_info.keep_alive = 60;
+		client_info.clean_session = 1;
+		client_info.will_qos = 0;
+		client_info.will_retain = 0;
+		client_info.will_topic = NULL;
+		client_info.will_msg = NULL;
+		client_info.client_id = imei;
+		client_info.client_user = MQTT_CLIENT_USER;
+		client_info.client_pass = MQTT_CLIENT_PASS;
+
+//        log_print("connect ssl %d onenet mode %d",case_id,is_user_onenet);
+		client_info.ssl_cfg = NULL;
+		ret = ql_mqtt_connect(&mqtt_cli, MQTT_CLIENT_QUECTEL_URL , mqtt_connect_result_cb, NULL, (const struct mqtt_connect_client_info_t *)&client_info, mqtt_state_exception_cb);
+
+		if(ret  == MQTTCLIENT_WOUNDBLOCK)
+        {
+			log_print("====wait connect result");
+			ql_rtos_semaphore_wait(mqtt_semp, QL_WAIT_FOREVER);
+			if(mqtt_connected == 0){
+				log_print("====ql_mqtt_client_deinit");
+				ql_mqtt_client_deinit(&mqtt_cli);
+				break;
+			}
+		}
+        else
+        {
+            sprintf(m,"===mqtt connect failed ,ret = %d",ret);
+            log_print(m);
+			break;
+		}
+
+		ql_mqtt_set_inpub_callback(&mqtt_cli, mqtt_inpub_data_cb, NULL);
+		if(ql_mqtt_sub_unsub(&mqtt_cli, topic_nhan, 1, mqtt_requst_result_cb,NULL, 1) == MQTTCLIENT_WOUNDBLOCK)
+        {
+			log_print("======wait subscrible result");
+			ql_rtos_semaphore_wait(mqtt_semp, QL_WAIT_FOREVER);
+		}
+		if(ql_mqtt_sub_unsub(&mqtt_cli, topic_cau_hinh, 1, mqtt_requst_result_cb,NULL, 1) == MQTTCLIENT_WOUNDBLOCK)
+        {
+			log_print("======wait subscrible result");
+			ql_rtos_semaphore_wait(mqtt_semp, QL_WAIT_FOREVER);
+		}
+		ql_rtos_task_sleep_ms(200);
+		do
+		{		
+            cJSON *pRoot = cJSON_CreateObject();
+			//nếu null thì return làm việc khác
+			if (pRoot == NULL)
+			{
+				ql_rtos_task_sleep_ms(100);
+			}
+			else
+			{
+				cJSON_AddNumberToObject(pRoot,"version",FW_VERSION);
+				cJSON_AddNumberToObject(pRoot,"dem",dem);
+                char *payload_send = cJSON_Print(pRoot);
+				len_message_sendMQTT = sprintf(message_sendMQTT,"%s",payload_send);
+				if(ql_mqtt_publish(&mqtt_cli, topic_sensor, message_sendMQTT, len_message_sendMQTT, 0, 0, mqtt_requst_result_cb,NULL) == MQTTCLIENT_WOUNDBLOCK){
+					// log_print("======wait publish result");
+					ql_rtos_semaphore_wait(mqtt_semp, QL_WAIT_FOREVER);
+				}
+
+				cJSON_free((void*)payload_send);
+				cJSON_Delete(pRoot);
+				ql_rtos_task_sleep_ms(1000);
+                dem++;
+			}
+            
+			
+		}
+		while(mqtt_connected == 1);
+        if(mqtt_connected == 1 && ql_mqtt_disconnect(&mqtt_cli, mqtt_disconnect_result_cb, NULL) == MQTTCLIENT_WOUNDBLOCK){
+            log_print("=====wait disconnect result");
+            ql_rtos_semaphore_wait(mqtt_semp, QL_WAIT_FOREVER);
+        }
+
+		sprintf(m,"==============mqtt_client_test[%d] end=======%x=========\n",1,mqtt_cli);
+		log_print(m);
+		ql_mqtt_client_deinit(&mqtt_cli);
+		mqtt_connected = 0;
+
+	}
+	
+exit:
+log_print("Exit app mqtt");
+ }
+	
+    ql_rtos_semaphore_delete(mqtt_semp);
+    ql_rtos_task_delete(mqtt_task);	
+
+   return;	
+}
+
+static void main1(void *param)
+{
+    while(1)
+    {
+		ql_rtos_task_sleep_ms(100);
+
+    }
+}
+static void main2(void *param)
+{
+    while(1)
+    {
+		ql_rtos_task_sleep_ms(100);
+
+    }
+}
 int appimg_enter(void *param)
 {
 	QlOSStatus err = QL_OSI_SUCCESS;
-	ql_task_t ql_init_task = NULL;
-	
-    QL_INIT_LOG("init demo enter: %s @ %s", QL_APP_VERSION, QL_APP_BUILD_RELEASE_TYPE);
-    prvInvokeGlobalCtors();
-    if(0 == strcasecmp(QL_APP_BUILD_RELEASE_TYPE, "release"))
-    {
-    	ql_dev_cfg_wdt(1);
-        //open the kernel log
-    	//ql_quec_trace_enable(1);
-    }
-    else
-    {
-    	ql_dev_cfg_wdt(0);
-        //close the kernel log
-    	//ql_quec_trace_enable(0);
-    }
-	
-    err = ql_rtos_task_create(&ql_init_task, 1024*4, APP_PRIORITY_NORMAL, "ql_init", ql_init_demo_thread, NULL, 1);
-	if(err != QL_OSI_SUCCESS)
-    {
-		QL_INIT_LOG("init failed");
-	}
-    
+    sprintf(m,"init demo enter: %s @ %s", QL_APP_VERSION, QL_APP_BUILD_RELEASE_TYPE);
+	log_print(m);
+    ql_dev_cfg_wdt(1);
+    ql_log_set_port(0);
+    ql_quec_trace_enable(0);
+    uart_log_init();
+
+    err = ql_rtos_task_create(&ql_main1, 1024*16, APP_PRIORITY_NORMAL, "ql_main1", main1, NULL, 1);
+    err = ql_rtos_task_create(&ql_main2, 1024*16, APP_PRIORITY_NORMAL, "ql_main2", main2, NULL, 1);
+    err = ql_rtos_task_create(&mqtt_task, 16*1024, 23, "mqtt_app", mqtt_app_thread, NULL, 1);
     return err;
 }
 
